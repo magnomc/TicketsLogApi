@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+        <MainUnitHasScaledStatement Value="False"/>
+        <CompatibilityMode Value="True"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <Title Value="ticketslogapi"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+      <Icon Value="0"/>
+    </General>
+    <BuildModes Count="3">
+      <Item1 Name="Default" Default="True"/>
+      <Item2 Name="Debug">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="C:\101tickets\TicketsLogApi"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <OtherUnitFiles Value="C:\Componentes\Lazarus\horse\src\;C:\Componentes\Lazarus\horse-basic-auth\src\;C:\Componentes\Lazarus\horse-compression\src\;C:\Componentes\Lazarus\horse-cors\src\;C:\Componentes\Lazarus\jhonson\src\;..\classes;C:\Componentes\Lazarus\dataset-serialize-v.2.6.0\src\;C:\Componentes\Lazarus\SimpleBaseLib4Pascal-master\source\;C:\Componentes\Lazarus\CryptoLib4Pascal-master\source\;C:\Componentes\Lazarus\HashLib4Pascal-master\source\;C:\Componentes\Lazarus\HashLib4Pascal-master\HashLib\src\Include\;C:\Componentes\Lazarus\CryptoLib4Pascal-master\CryptoLib\src\Include\;C:\Componentes\Lazarus\SimpleBaseLib4Pascal-master\SimpleBaseLib\src\Include\;C:\Componentes\Lazarus\RESTRequest4Delphi-4.0.19\src\;C:\Componentes\Lazarus\JsonTools-master\"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <Parsing>
+            <SyntaxOptions>
+              <SyntaxMode Value="Delphi"/>
+              <IncludeAssertionCode Value="True"/>
+              <UseAnsiStrings Value="False"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <Checks>
+              <IOChecks Value="True"/>
+              <RangeChecks Value="True"/>
+              <OverflowChecks Value="True"/>
+              <StackChecks Value="True"/>
+            </Checks>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <DebugInfoType Value="dsDwarf3"/>
+              <UseHeaptrc Value="True"/>
+              <TrashVariables Value="True"/>
+              <UseExternalDbgSyms Value="True"/>
+            </Debugging>
+          </Linking>
+          <Other>
+            <CustomOptions Value="-dUseCThreads"/>
+          </Other>
+        </CompilerOptions>
+      </Item2>
+      <Item3 Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="C:\101tickets\TicketsLogApi"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <OtherUnitFiles Value="C:\Componentes\Lazarus\horse\src\;C:\Componentes\Lazarus\horse-basic-auth\src\;C:\Componentes\Lazarus\horse-compression\src\;C:\Componentes\Lazarus\horse-cors\src\;C:\Componentes\Lazarus\jhonson\src\;..\classes;C:\Componentes\Lazarus\dataset-serialize-v.2.6.0\src\;C:\Componentes\Lazarus\SimpleBaseLib4Pascal-master\source\;C:\Componentes\Lazarus\CryptoLib4Pascal-master\source\;C:\Componentes\Lazarus\HashLib4Pascal-master\source\;C:\Componentes\Lazarus\HashLib4Pascal-master\HashLib\src\Include\;C:\Componentes\Lazarus\CryptoLib4Pascal-master\CryptoLib\src\Include\;C:\Componentes\Lazarus\SimpleBaseLib4Pascal-master\SimpleBaseLib\src\Include\;C:\Componentes\Lazarus\RESTRequest4Delphi-4.0.19\src\;C:\Componentes\Lazarus\JsonTools-master\"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <Parsing>
+            <SyntaxOptions>
+              <SyntaxMode Value="Delphi"/>
+              <UseAnsiStrings Value="False"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+              <RunWithoutDebug Value="True"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+          </Linking>
+          <Other>
+            <CustomOptions Value="-dUseCThreads"/>
+          </Other>
+        </CompilerOptions>
+      </Item3>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+    </RunParams>
+    <RequiredPackages Count="4">
+      <Item1>
+        <PackageName Value="BGRABitmapPack"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="MemDSLaz"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="zcomponentdesign"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="zcomponent"/>
+      </Item4>
+    </RequiredPackages>
+    <Units Count="7">
+      <Unit0>
+        <Filename Value="ticketslogapi.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="udmcon2.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\Classes\uutilsclass.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uUtilsClass"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="ucontroller.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uController"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\Classes\udmpool2.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="udmcon.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uDmCon"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\Classes\udmpool.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uDmPool"/>
+      </Unit6>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="C:\101tickets\TicketsLogApi"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="C:\Componentes\Lazarus\horse\src\;C:\Componentes\Lazarus\horse-basic-auth\src\;C:\Componentes\Lazarus\horse-compression\src\;C:\Componentes\Lazarus\horse-cors\src\;C:\Componentes\Lazarus\jhonson\src\;..\classes;C:\Componentes\Lazarus\dataset-serialize-v.2.6.0\src\;C:\Componentes\Lazarus\SimpleBaseLib4Pascal-master\source\;C:\Componentes\Lazarus\CryptoLib4Pascal-master\source\;C:\Componentes\Lazarus\HashLib4Pascal-master\source\;C:\Componentes\Lazarus\HashLib4Pascal-master\HashLib\src\Include\;C:\Componentes\Lazarus\CryptoLib4Pascal-master\CryptoLib\src\Include\;C:\Componentes\Lazarus\SimpleBaseLib4Pascal-master\SimpleBaseLib\src\Include\;C:\Componentes\Lazarus\RESTRequest4Delphi-4.0.19\src\;C:\Componentes\Lazarus\JsonTools-master\"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf2Set"/>
+      </Debugging>
+    </Linking>
+    <Other>
+      <CustomOptions Value="-dUseCThreads"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Release"/>
+    <Units Count="17">
+      <Unit0>
+        <Filename Value="ticketslogapi.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="49" Y="11"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="udmcon2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="260"/>
+        <CursorPos X="69" Y="265"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\Classes\uutilsclass.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uUtilsClass"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="34" Y="10"/>
+        <UsageCount Value="201"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="ucontroller.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uController"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="34"/>
+        <CursorPos Y="50"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\Classes\udmpool2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="6"/>
+        <CursorPos X="13"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="udmcon.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uDmCon"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="247"/>
+        <CursorPos Y="271"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\Classes\udmpool.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uDmPool"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="44"/>
+        <CursorPos Y="50"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="udmpool.pas"/>
+        <UnitName Value="uDmPool"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="45"/>
+        <CursorPos X="82" Y="51"/>
+        <UsageCount Value="28"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="udmcon.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="149"/>
+        <CursorPos X="7" Y="169"/>
+        <UsageCount Value="201"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="udmconexao.pas"/>
+        <UnitName Value="UDmConexao"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="30" Y="34"/>
+        <UsageCount Value="128"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="umetodos.pas"/>
+        <UnitName Value="uMetodos"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="37"/>
+        <CursorPos X="34" Y="47"/>
+        <UsageCount Value="124"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="urotas.pas"/>
+        <UnitName Value="URotas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="19"/>
+        <CursorPos X="16" Y="11"/>
+        <UsageCount Value="124"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\Componentes\Lazarus\JsonTools-master\jsontools.pas"/>
+        <UnitName Value="JsonTools"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="718"/>
+        <CursorPos Y="734"/>
+        <UsageCount Value="88"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\Classes\UTicketsClientApi.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="153"/>
+        <CursorPos X="24" Y="162"/>
+        <UsageCount Value="134"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\Componentes\Lazarus\RESTRequest4Delphi-4.0.19\src\RESTRequest4D.Request.FPHTTPClient.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="25" Y="9"/>
+        <UsageCount Value="79"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\Users\MTB\AppData\Local\lazarus_42\onlinepackagemanager\packages\zeosdbo\src\dbc\ZDbcFirebirdInterbase.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2033"/>
+        <CursorPos Y="2049"/>
+        <UsageCount Value="17"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="C:\Users\MTB\AppData\Local\lazarus_42\onlinepackagemanager\packages\zeosdbo\src\component\ZDatasetParam.pas"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="4584"/>
+        <CursorPos Y="4593"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit16>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="265" TopLine="247"/>
+      </Position1>
+      <Position2>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="267" TopLine="247"/>
+      </Position2>
+      <Position3>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="268" TopLine="247"/>
+      </Position3>
+      <Position4>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="261" TopLine="247"/>
+      </Position4>
+      <Position5>
+        <Filename Value="ucontroller.pas"/>
+        <Caret Line="50" TopLine="34"/>
+      </Position5>
+      <Position6>
+        <Filename Value="ucontroller.pas"/>
+        <Caret Line="51" TopLine="34"/>
+      </Position6>
+      <Position7>
+        <Filename Value="ucontroller.pas"/>
+        <Caret Line="50" TopLine="34"/>
+      </Position7>
+      <Position8>
+        <Filename Value="ucontroller.pas"/>
+        <Caret Line="85" TopLine="70"/>
+      </Position8>
+      <Position9>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="261" TopLine="247"/>
+      </Position9>
+      <Position10>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="263" TopLine="247"/>
+      </Position10>
+      <Position11>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="264" TopLine="247"/>
+      </Position11>
+      <Position12>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="265" TopLine="247"/>
+      </Position12>
+      <Position13>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="261" TopLine="247"/>
+      </Position13>
+      <Position14>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="263" TopLine="247"/>
+      </Position14>
+      <Position15>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="261" TopLine="247"/>
+      </Position15>
+      <Position16>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="268" TopLine="247"/>
+      </Position16>
+      <Position17>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="269" TopLine="247"/>
+      </Position17>
+      <Position18>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="270" TopLine="247"/>
+      </Position18>
+      <Position19>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="271" TopLine="247"/>
+      </Position19>
+      <Position20>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="268" TopLine="247"/>
+      </Position20>
+      <Position21>
+        <Filename Value="ucontroller.pas"/>
+        <Caret Line="50" TopLine="34"/>
+      </Position21>
+      <Position22>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="268" TopLine="247"/>
+      </Position22>
+      <Position23>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="271" TopLine="247"/>
+      </Position23>
+      <Position24>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="272" TopLine="247"/>
+      </Position24>
+      <Position25>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="265" Column="42" TopLine="247"/>
+      </Position25>
+      <Position26>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="268" TopLine="247"/>
+      </Position26>
+      <Position27>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="269" TopLine="247"/>
+      </Position27>
+      <Position28>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="270" TopLine="247"/>
+      </Position28>
+      <Position29>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="271" TopLine="247"/>
+      </Position29>
+      <Position30>
+        <Filename Value="udmcon.pas"/>
+        <Caret Line="272" TopLine="247"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\Classes\consulta_reference.pas"/>
+        <Line Value="175"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\Classes\consulta_reference.pas"/>
+        <Line Value="238"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\Classes\consulta_reference.pas"/>
+        <Line Value="260"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="umetodos.pas"/>
+        <Line Value="681"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="umetodos.pas"/>
+        <Line Value="662"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="umetodos.pas"/>
+        <Line Value="1297"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="umetodos.pas"/>
+        <Line Value="553"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="umetodos.pas"/>
+        <Line Value="530"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="urotas.pas"/>
+        <Line Value="90"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="umetodos.pas"/>
+        <Line Value="232"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="ucontroller.pas"/>
+        <Line Value="122"/>
+      </Item>
+    </BreakPoints>
+    <Watches>
+      <Item>
+        <Expression Value="identificador_venda.ToString"/>
+      </Item>
+    </Watches>
+  </Debugging>
+</CONFIG>
