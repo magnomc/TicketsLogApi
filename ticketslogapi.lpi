@@ -23,7 +23,7 @@
           <Version Value="11"/>
           <PathDelim Value="\"/>
           <Target>
-            <Filename Value="C:\101tickets\TicketsLogApi"/>
+            <Filename Value="C:\101tickets\bin\TicketsLogApi"/>
           </Target>
           <SearchPaths>
             <IncludeFiles Value="$(ProjOutDir)"/>
@@ -63,7 +63,7 @@
           <Version Value="11"/>
           <PathDelim Value="\"/>
           <Target>
-            <Filename Value="C:\101tickets\TicketsLogApi"/>
+            <Filename Value="C:\101tickets\bin\TicketsLogApi"/>
           </Target>
           <SearchPaths>
             <IncludeFiles Value="$(ProjOutDir)"/>
@@ -138,6 +138,7 @@
       <Unit4>
         <Filename Value="..\Classes\udmpool2.pas"/>
         <IsPartOfProject Value="True"/>
+        <UnitName Value="uDmPool2"/>
       </Unit4>
       <Unit5>
         <Filename Value="udmcon.pas"/>

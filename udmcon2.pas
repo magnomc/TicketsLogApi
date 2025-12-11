@@ -31,9 +31,10 @@ type
     procedure PesquisaLogs(Req: TJSONObject;out Resp : TJSONData);
     procedure GravaLogBD(Req: TJSONObject; out Resp : TJSONData);
     procedure ResetState;
+    function Ping: Boolean;
 
     var Utils : tUtilsClass;
-    var PathApp : string;
+
   end;
 
 implementation
@@ -57,8 +58,6 @@ begin
   zCon.Password:=Utils.pSenhaBd;
   zCon.Database:=Utils.pCaminhoBdInt;
   zCon.Port:=Utils.pPortaBd;
-
-  PathApp:=StringReplace(ExtractFilePath(ParamStr(0)),'bin\','',[rfReplaceAll,rfIgnoreCase]);
 
   if not(ConectaBD(True)) then
     raise exception.Create('Não foi possível conectar ao banco de dados!');
@@ -294,6 +293,17 @@ begin
     end;
     //if Utils.pAtivaLog then Utils.GravaLogArq(vFun+':Result: '+Resp.AsJSON+' - saiu');
     If Assigned(ReqJson) then FreeAndNil(ReqJson);
+  end;
+end;
+
+function TdmCon2.Ping: Boolean;
+begin
+  Result := False;
+  try
+    zCon.ExecuteDirect('SELECT 1 FROM RDB$DATABASE');
+    Result := True;
+  except
+    Result := False;
   end;
 end;
 
